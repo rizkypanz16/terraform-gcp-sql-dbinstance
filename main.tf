@@ -1,6 +1,6 @@
 provider "google" {
-    credentials = file("<credentials-file.json>")			# rubah <credentials-file.json> dengan file credentials google yang anda miliki
-    project     = "<project-id>"					        # rubah <project-id> dengan google project_id yang anda miliki
+    credentials = file("<credentials_file.json>")			# rubah <credentials_file.json> dengan file credentials google yang anda miliki
+    project     = "<project_id>"					        # rubah <project_id> dengan google project_id yang anda miliki
     region      = "us-central1"								# region					
     zone        = "us-central1-a"							# zone
 }
