@@ -8,6 +8,7 @@ git clone https://github.com/rizkypanz16/terraform-gcp-sql-dbinstance.git
 ```
 - Change the configuration below with the aws configuration you have made 
 ```
+<credentials_file.json>
 <project_id>
 <db_password>
 ```
